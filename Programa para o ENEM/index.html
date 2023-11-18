@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ENEM Calculator</title>
+    <!-- Movemos a inclusão do script para o final do body -->
+</head>
+<body>
+    <h1>Sua média no primeiro dia do ENEM</h1>
+    <form>
+        <label for="qc">Questões Certas</label>
+        <input type="number" class="input-enem" id="qc">
+        <button type="button" onclick="calcularPercentualDeAcertos()">Calcular</button>
+        <!-- Adicionamos o tipo "button" para evitar o envio do formulário -->
+    </form>
+
+    <!-- Adicionamos uma div para exibir o resultado -->
+    <div id="resultado"></div>
+
+    <script src="index.js"></script>
+    <!-- Movemos o script para o final do body para garantir que o HTML seja carregado primeiro -->
+</body>
+</html>

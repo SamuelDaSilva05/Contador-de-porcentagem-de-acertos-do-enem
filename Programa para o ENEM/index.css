@@ -1,0 +1,29 @@
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 250px;
+    margin: 15px auto;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
